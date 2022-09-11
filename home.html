@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+   
+   <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">DASHBOARD</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="me.png" class="image" alt="">
+         <h3 class="name">ismailaib</h3>
+         <p class="role">Admin</p>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <h3 class="name">ISMAILAIB</h3>
+      <p class="role">ADMIN</p>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>Calendrier</span></a>
+      <a href="home.html"><i class="fa-sharp fa-solid fa-list-check"></i><span>To do list</span></a>
+      <a href="home.html"><i class="fa-sharp fa-solid fa-temperature-half"></i><span>Weather Cart</span></a>
+      <a href="home.html"><i class="fa-sharp fa-solid fa-chart-line"></i><span>orders shart</span></a>
+      <a href="home.html"><i class="fa-sharp fa-solid fa-table-list"></i><span>Table</span></a>
+      <a href="about.html"><i class="fa-sharp fa-solid fa-file-pen"></i><span>Text Editor</span></a>
+   </nav>
+
+</div>
+
+
+  
+<!-- custom js file link  -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
